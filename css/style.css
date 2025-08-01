@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container {
+    width: 900px;
+    margin: 50px auto;
+    background-color: #fff;
+    color: #333;
+    position: relative;
+}
+
+.top-bar {
+    height: 40px;
+    width: 100%;
+    background-color: lightskyblue;
+    border-bottom: 2px solid salmon;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+.instagram {
+    width: 100px;
+    height: 100px;
+    background-image: url(/web-sederhana/img/ribbon.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: -100000px;
+    position: absolute;
+    top: -40px;
+    right: -10px;
+}   
+
+.header-text {
+    padding: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header-text ul {
+    list-style-type: none;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: salmon;
+    padding: 3px;
+    transition: 0.5s;
+}
+
+.header ul li a:hover {
+    background-color: lightskyblue;
+    color: #333;
+    border-radius: 3px;
+}
+
+.hero {
+    width: auto;
+    height: 380px;
+    background-image: url(/web-sederhana/img/1.png);
+    background-size: cover;
+    border-top: 3px solid salmon;
+    border-bottom: 3px solid lightskyblue;
+    opacity: 0.8;
+}
+
+.hero .text-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 137px auto;
+    color: #eaeaea;    
+}
+
+.hero .text-hero h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.main {
+    width: 600px;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: left;
+}
+ 
+.main .penulis {
+    font-size: 12px;
+}
+.main .penulis a {
+    color: salmon;
+    text-decoration: none;
+    padding: 3px;
+    transition: 1s ease;
+}
+
+.main .penulis a:hover {
+    border-radius: 8px;
+    color: red;
+    font-weight: bold;
+}
+
+.main .artikel {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 0.8px;
+    text-align: left;
+}
+
+
+
+.sidebar {
+    width: 300px;
+    float: right;
+    padding: 20px;
+    border-left: 2px solid #eecbb6;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar img {
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin: 5px;
+}
+
+.sidebar h3 {
+    font-weight: bold;
+    color: #666;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 15px;
+}
+
+.sidebar p {
+    color: #666;
+    font: 13px/18px arial;
+    text-align: justify;
+}
+
+.sidebar hr {
+    margin: 5px;
+    width: 100%;
+    border: 1px solid #eecbb6;
+}
+
+.sidebar .lainnya {
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.sidebar .feature {
+    width: 100%;
+    margin-top: 10px;
+    float: right;
+}
+
+.feature img {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+}
+
+.feature p {
+    font: 12px/20px arial;
+    font-style: italic;
+    color: blueviolet;
+}
+
+.feature button {
+    margin-top: 5px;
+    width: 50%;
+    border: none;
+    background-color: #333;
+    padding: 3px;
+    color: salmon;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.feature button a {
+    color: salmon;
+    text-decoration: none;
+    font-size: 11px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.feature button:hover {
+    background-color: #eaeaea;
+    color: #333;
+}
+
+.feature-social {
+    margin-top: 15px;
+    border: none;
+    background-color: #272626;
+    color: #eaeaea;
+    border-radius: 15px;
+    text-align: center;
+    padding: 5px;
+}
+
+.sidebar .feature-social a {
+    display: inline-block;
+    margin: 5px;
+}
+
+.sidebar .feature-social a  {
+    color: salmon;
+    text-decoration: none;
+}
+
+.sidebar .feature-social a i:hover {
+    transform: scale(1.3);
+    transition: 0.5s ease;
+}
+
+.footer {
+    background-color: #333;
+    color: #eaeaea;
+    text-align: center;
+    padding: 10px;
+}
+
+/* 
+ * clear fixs
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    zoom: 1;
+}
