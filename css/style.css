@@ -28,14 +28,14 @@
 .instagram {
     width: 100px;
     height: 100px;
-    background-image: url(/web-sederhana/img/ribbon.png);
+    background-image: url(../img/ribbon.png);
     background-repeat: no-repeat;
     display: inline-block;
     text-indent: -100000px;
     position: absolute;
     top: -40px;
     right: -10px;
-}   
+}
 
 .header-text {
     padding: 18px;
@@ -67,7 +67,7 @@
 .hero {
     width: auto;
     height: 380px;
-    background-image: url(/web-sederhana/img/1.png);
+    background-image: url(../img/1.png);
     background-size: cover;
     border-top: 3px solid salmon;
     border-bottom: 3px solid lightskyblue;
@@ -79,7 +79,7 @@
     justify-content: center;
     align-items: center;
     margin: 137px auto;
-    color: #eaeaea;    
+    color: #eaeaea;
 }
 
 .hero .text-hero h3 {
@@ -93,10 +93,11 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     float: left;
 }
- 
+
 .main .penulis {
     font-size: 12px;
 }
+
 .main .penulis a {
     color: salmon;
     text-decoration: none;
@@ -216,7 +217,7 @@
     margin: 5px;
 }
 
-.sidebar .feature-social a  {
+.sidebar .feature-social a {
     color: salmon;
     text-decoration: none;
 }
@@ -238,8 +239,10 @@
  */
 .cf:before,
 .cf:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
 }
 
 .cf:after {
